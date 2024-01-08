@@ -6,12 +6,12 @@ const SingleFood = () => {
   // console.log(item.meals[0])
   const { strMeal, strMealThumb, strInstructions, strCategory } = item.meals[0];
   return (
-    <div className="flex justify-center items-center bg-indigo-100 shadow-xl">
+    <div className="flex justify-center items-center bg-indigo-100 shadow-xl ">
       <div className="card w-2/3 glass">
         <figure>
           <img
             src={strMealThumb}
-            alt="car!"
+            alt="Meal"
           />
         </figure>
         <div className="card-body">
